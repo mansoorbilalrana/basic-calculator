@@ -42,7 +42,7 @@ $(document).ready(function(){
     $("#mul").click(function(e){
         e.preventDefault();
         if(validation()){
-            $("#result").val(firstVal() - secondVal());
+            $("#result").val(firstVal() * secondVal());
         }
     });
 
@@ -64,7 +64,7 @@ $(document).ready(function(){
         return  parseInt($("#secondNumber").val());
     }
 
-    //check vlidation
+    //check validation
     function validation(){
         if ($("#secondNumber").val() != '' && $("#secondNumber").val() != ''){
            return true;
