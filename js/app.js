@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     //check validation
     function validation(){
-        if ($("#secondNumber").val() != '' && $("#secondNumber").val() != ''){
+        if ($("#firstNumber").val() != '' && $("#secondNumber").val() != ''){
            return true;
         }
         alert('please fill out all fields');
